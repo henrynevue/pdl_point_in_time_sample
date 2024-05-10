@@ -1,0 +1,140 @@
+table name,table description,field name,field description,possible values
+company_point_in_time,"stats on a company's employee counts, month by month",ticker,the stock ticker of the company,
+company_point_in_time,"stats on a company's employee counts, month by month",date,the date formatted yyyy-mm these employee counts were pulled from,
+company_point_in_time,"stats on a company's employee counts, month by month",company_type,the company type (private vs public) of this company at this time,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count,the total number of employees for this company at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_level_cxo,the number of employees this company has with a cxo title level at the date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_level_director,the number of employees this company has with a director title level at the date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_level_entry,the number of employees this company has with a entry title level at the date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_level_manager,the number of employees this company has with a manager title level at the date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_level_owner,the number of employees this company has with an owner title level at the date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_level_partner,the number of employees this company has with a partner title level at the date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_level_senior,the number of employees this company has with a senior title level at the date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_level_training,the number of employees this company has with a training title level at the date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_level_unpaid,the number of employees this company has with a unpaid title level at the date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_level_vp,the number of employees this company has with a vp title level at the date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_customer_service,the number of employees this company has with role = customer_service at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_design,the number of employees this company has with role = design at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_education,the number of employees this company has with role = education at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_engineering,the number of employees this company has with role = engineering at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_finance,the number of employees this company has with role = finance at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_health,the number of employees this company has with role = health at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_human_resources,the number of employees this company has with role = human_resources at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_legal,the number of employees this company has with role = legal at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_marketing,the number of employees this company has with role = marketing at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_media,the number of employees this company has with role = media at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_operations,the number of employees this company has with role = operations at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_other_uncategorized,the number of employees this company has with role = other_uncategorized at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_public_relations,the number of employees this company has with role = public_relations at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_real_estate,the number of employees this company has with role = real_estate at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_sales,the number of employees this company has with role = sales at this date,
+company_point_in_time,"stats on a company's employee counts, month by month",employee_count_role_trades,the number of employees this company has with role = trades at this date,
+pdl_company_base,basic firmographic information on a company that rarely/never changes,ticker,the stock ticker of the company,
+pdl_company_base,basic firmographic information on a company that rarely/never changes,display_name,the name of the company,
+pdl_company_base,basic firmographic information on a company that rarely/never changes,website,the website of the company,
+pdl_company_base,basic firmographic information on a company that rarely/never changes,linkedin_url,the linkedin url of the company,
+pdl_company_base,basic firmographic information on a company that rarely/never changes,founded,the year the company was founded,
+pdl_company_base,basic firmographic information on a company that rarely/never changes,industry,the company's industry,https://docs.peopledatalabs.com/docs/industries
+pdl_company_base,basic firmographic information on a company that rarely/never changes,ipo_date,the date the company went public,
+pdl_company_base,basic firmographic information on a company that rarely/never changes,location_name,the location of the company,
+pdl_company_base,basic firmographic information on a company that rarely/never changes,location_metro,the metro location of the company,
+pdl_company_base,basic firmographic information on a company that rarely/never changes,location_region,the company's location region,
+pdl_company_base,basic firmographic information on a company that rarely/never changes,location_country,the country the company is in ,https://docs.peopledatalabs.com/docs/location-countries
+pdl_company_base,basic firmographic information on a company that rarely/never changes,location_continent,the continent the company is in ,
+hires,a running list of hires a company has made,date,"the date formatted yyyy-mm the hire was made. 
+the day of the hire could be any day within this month",
+hires,a running list of hires a company has made,company_ticker,the ticker for the company the person is joining ,
+hires,a running list of hires a company has made,first_seen,the date we first saw this job change,
+hires,a running list of hires a company has made,person_id,the unique id for this person,
+hires,a running list of hires a company has made,age,the person's age at the time they were hired ,
+hires,a running list of hires a company has made,company_founded,the year the company the person is joining was founded,
+hires,a running list of hires a company has made,company_industry,the industry of the company the person is joining ,https://docs.peopledatalabs.com/docs/industries
+hires,a running list of hires a company has made,company_linkedin_url,the linkedin url of the company the person is joining,
+hires,a running list of hires a company has made,company_name,the name of the company the person is joining ,
+hires,a running list of hires a company has made,company_type,the company type of the company when the person joined (ex. private vs. public),https://docs.peopledatalabs.com/docs/company-types
+hires,a running list of hires a company has made,company_website,the website of the company the person is joining ,
+hires,a running list of hires a company has made,country,the country the person resided in when they joined the company  (the date column),https://docs.peopledatalabs.com/docs/location-countries
+hires,a running list of hires a company has made,grad_degree_degree,the person's graduate degree when they joined the company (the date column),https://docs.peopledatalabs.com/docs/education-degrees
+hires,a running list of hires a company has made,grad_degree_end,the end date of the person's graduate degree,
+hires,a running list of hires a company has made,grad_degree_major_1,the major of the person's graduate degree,https://docs.peopledatalabs.com/docs/education-majors
+hires,a running list of hires a company has made,grad_degree_school_location_country,the country of the school the person received their grad degree from,https://docs.peopledatalabs.com/docs/location-countries
+hires,a running list of hires a company has made,grad_degree_school_name,the name of the school the person received their grad degree from,
+hires,a running list of hires a company has made,grad_degree_school_website,the website of the school the person received their grad degree from,
+hires,a running list of hires a company has made,grad_degree_start,the date the person started their grad degree,
+hires,a running list of hires a company has made,level,the person's job title level,https://docs.peopledatalabs.com/docs/job-title-levels
+hires,a running list of hires a company has made,prev_job_level,the job title level of the person at their previous company,
+hires,a running list of hires a company has made,prev_job_first_seen,the date we first picked up the person's previous job,
+hires,a running list of hires a company has made,prev_job_company_founded,the year the person's previous company was founded ,
+hires,a running list of hires a company has made,prev_job_company_industry,the industry of the person's previous company,https://docs.peopledatalabs.com/docs/industries
+hires,a running list of hires a company has made,prev_job_company_linkedin_url,the linkedin url of the person's previous company,
+hires,a running list of hires a company has made,prev_job_company_location_country,the country of the person's previous company,https://docs.peopledatalabs.com/docs/location-countries
+hires,a running list of hires a company has made,prev_job_company_location_locality,the locality of the person's previous company,
+hires,a running list of hires a company has made,prev_job_company_location_name,the location name of the person's previous company,
+hires,a running list of hires a company has made,prev_job_company_location_region,the location region of the person's previous company,
+hires,a running list of hires a company has made,prev_job_company_name,the name of the person's previous company,
+hires,a running list of hires a company has made,prev_job_company_website,the website of the person's previous company,
+hires,a running list of hires a company has made,prev_job_role,the person's prior job title role,https://docs.peopledatalabs.com/docs/job-title-roles
+hires,a running list of hires a company has made,prev_job_sub_role,the person's prior job title sub role,https://docs.peopledatalabs.com/docs/job-title-subroles
+hires,a running list of hires a company has made,prev_job_title,the person's prior job title,
+hires,a running list of hires a company has made,role,the person's new role ,https://docs.peopledatalabs.com/docs/job-title-roles
+hires,a running list of hires a company has made,sex,the person's sex,https://docs.peopledatalabs.com/docs/job-title-subroles
+hires,a running list of hires a company has made,sub_role,the person's sub role,
+hires,a running list of hires a company has made,title,the person's job title,
+hires,a running list of hires a company has made,undergrad_degree_degree,the person's undergrad degree,https://docs.peopledatalabs.com/docs/education-degrees
+hires,a running list of hires a company has made,undergrad_degree_end,the graduation date for the person's undegrad ,
+hires,a running list of hires a company has made,undergrad_degree_major_1,the person's undergrad major ,https://docs.peopledatalabs.com/docs/education-majors
+hires,a running list of hires a company has made,undergrad_degree_school_location_country,the country of the school the person did their undergrad at,https://docs.peopledatalabs.com/docs/location-countries
+hires,a running list of hires a company has made,undergrad_degree_school_name,the name of the school the person did their undergrad at ,
+hires,a running list of hires a company has made,undergrad_degree_school_website,the website of the school the person did their undergrad at,
+hires,a running list of hires a company has made,undergrad_degree_start,the date the person started their undergrad degree ,
+hires,a running list of hires a company has made,years_since_grad,the number of years since the person received their undegrad ,
+hires,a running list of hires a company has made,years_since_undergrad,the number of years since the person received their grad degree,
+departures,a running list of departures from the company,date,"the end date for this job. dates are formatted yyyy-mm.
+ the day of the departure could be any day within this month",
+departures,a running list of departures from the company,company_ticker,the ticker for the company the person is departing from,
+departures,a running list of departures from the company,first_seen,the date we first saw this job change ,
+departures,a running list of departures from the company,person_id,the unique id for this person,
+departures,a running list of departures from the company,age,the person's age,
+departures,a running list of departures from the company,company_founded,the year the company the person is departing was founded,
+departures,a running list of departures from the company,company_industry,the industry of the company the person is departing from,https://docs.peopledatalabs.com/docs/industries
+departures,a running list of departures from the company,company_linkedin_url,the linkedin url of the company the person is departing from,
+departures,a running list of departures from the company,company_name,the name of the company the person is departing from,
+departures,a running list of departures from the company,company_type,the company type at the time of the departure (date field) - private vs public,
+departures,a running list of departures from the company,company_website,the website of the company the person is departing from,
+departures,a running list of departures from the company,country,the country the person resided in at the time of the departure,https://docs.peopledatalabs.com/docs/location-countries
+departures,a running list of departures from the company,grad_degree_degree,the grad degree for this person ,https://docs.peopledatalabs.com/docs/education-degrees
+departures,a running list of departures from the company,grad_degree_end,the date this person finished their grad degree,
+departures,a running list of departures from the company,grad_degree_major_1,what this person majored in at grad school,https://docs.peopledatalabs.com/docs/education-majors
+departures,a running list of departures from the company,grad_degree_school_location_country,the country of the school the person graduated from,https://docs.peopledatalabs.com/docs/location-countries
+departures,a running list of departures from the company,grad_degree_school_name,the name of the school the person graduated from,
+departures,a running list of departures from the company,grad_degree_school_website,the website of the school the person graduated from,
+departures,a running list of departures from the company,grad_degree_start,the date the person started their grad degree,
+departures,a running list of departures from the company,job_duration,how long the departing employee worked for the company they're departing from,
+departures,a running list of departures from the company,level,the job title level of the departing employee,https://docs.peopledatalabs.com/docs/job-title-levels
+departures,a running list of departures from the company,next_job_company_founded,the year the departing employee's new company was founded,
+departures,a running list of departures from the company,next_job_company_industry,the industry of the departing employee's new company,https://docs.peopledatalabs.com/docs/industries
+departures,a running list of departures from the company,next_job_company_linkedin_url,the linkedin url of the departing employee's new company,
+departures,a running list of departures from the company,next_job_company_location_country,the country of the departing employee's new company,https://docs.peopledatalabs.com/docs/location-countries
+departures,a running list of departures from the company,next_job_company_location_locality,the location locality of the departing employee's new company,
+departures,a running list of departures from the company,next_job_company_location_name,the location name of the departing employee's new company,
+departures,a running list of departures from the company,next_job_company_location_region,the location region of the departing employee's new company,
+departures,a running list of departures from the company,next_job_company_name,the name of the departing employee's new company,
+departures,a running list of departures from the company,next_job_company_website,the website of the departing employee's new company,
+departures,a running list of departures from the company,next_job_title,the departing employee's job title at their next job,
+departures,a running list of departures from the company,next_job_title_role,the departing employee's title role at their next job,https://docs.peopledatalabs.com/docs/job-title-roles
+departures,a running list of departures from the company,next_job_title_sub_role,the departing employee's title sub role at their new job,https://docs.peopledatalabs.com/docs/job-title-subroles
+departures,a running list of departures from the company,next_job_level,the level of the departing employees new job,
+departures,a running list of departures from the company,next_job_first_seen,the date we first picked up the person's new job,
+departures,a running list of departures from the company,role,the role of the departing employee,https://docs.peopledatalabs.com/docs/job-title-roles
+departures,a running list of departures from the company,sex,the departing employee's sex,https://docs.peopledatalabs.com/docs/sex
+departures,a running list of departures from the company,sub_role,the sub role of the departing employee,https://docs.peopledatalabs.com/docs/job-title-subroles
+departures,a running list of departures from the company,title,the departing employees job title,
+departures,a running list of departures from the company,undergrad_degree_degree,the departing employees undergrad degree,https://docs.peopledatalabs.com/docs/education-degrees
+departures,a running list of departures from the company,undergrad_degree_end,the end date of the departing employees undergrad degree,
+departures,a running list of departures from the company,undergrad_degree_major_1,the departing employee's undergrad major,https://docs.peopledatalabs.com/docs/education-majors
+departures,a running list of departures from the company,undergrad_degree_school_location_country,the country of the departing employee's undergrad school,https://docs.peopledatalabs.com/docs/location-countries
+departures,a running list of departures from the company,undergrad_degree_school_name,the name of the school the departing employee received their undergrad,
+departures,a running list of departures from the company,undergrad_degree_school_website,the website of the school the departing employee received their undergrad,
+departures,a running list of departures from the company,undergrad_degree_start,the date the departing employee started their undergrad,
+departures,a running list of departures from the company,years_since_grad,the number of years since the departing employeee graduated,
+departures,a running list of departures from the company,years_since_undergrad,the number of years since the departing employee received their grad degree,
